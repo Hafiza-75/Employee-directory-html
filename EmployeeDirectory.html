@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+</head>
+<body>
+
+    <h1>Employee Directory</h1>
+    <hr>
+    
+    <h2>Employee List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Photo</th>
+                <th>Name</th>
+                <th>Job Title</th>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="images/kid3.jpg" alt="John Doe" width="50"></td>
+                <td>John Doe</td>
+                <td>Software Engineer</td>
+                <td>IT</td>
+                <td><a href="mailto:johndoe@example.com">johndoe@example.com</a></td>
+                <td>(123) 456-7890</td>
+            </tr>
+            <tr>
+                <td><img src="images/kid2.jpg" alt="Jane Smith" width="50"></td>
+                <td>Jane Smith</td>
+                <td>Product Manager</td>
+                <td>Marketing</td>
+                <td><a href="mailto:janesmith@example.com">janesmith@example.com</a></td>
+                <td>(098) 765-4321</td>
+            </tr>
+            <tr>
+                <td><img src="images/kid1.jpg" alt="Ayan Pacion" width="50"></td>
+                <td>Ayan Pacion</td>
+                <td>Testing Engineer</td>
+                <td>Testing</td>
+                <td><a href="mailto:ayanpacion@example.com">ayanpacion@example.com</a></td>
+                <td>(123) 123-4561</td>
+            </tr>
+            <!-- Additional rows can be added here -->
+        </tbody>
+    </table>
+
+    <h2>Add New Employee</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="job-title">Job Title:</label><br>
+        <input type="text" id="job-title" name="job-title"><br><br>
+
+        <label for="department">Department:</label><br>
+        <input type="text" id="department" name="department"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone"><br><br>
+
+        <button type="submit">Add Employee</button>
+    </form>
+
+</body>
+</html>
