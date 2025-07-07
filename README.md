@@ -16,7 +16,7 @@ Includes a list of employees with their contact details and a basic form to add 
 
 ## Preview:
 
-![image](https://github.com/user-attachments/assets/6a6e1b42-0945-43b7-b29c-fa0c707c9dff)
+![image](https://github.com/user-attachments/assets/97c9f878-88aa-425c-b7e5-062f60b949be)
 
 
 
